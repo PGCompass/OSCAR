@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         OSCAR ALL
-// @namespace    http://tampermonkey.net/
 // @version      2.3
 // @description  Amélioration Oscar
 // @author       Pierre GARDIE - Compass Group France
