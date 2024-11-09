@@ -5,8 +5,8 @@
 // @description  Amélioration Oscar
 // @author       Pierre GARDIE - Compass Group France
 // @match        https://portail-oscar.compass-group.fr
-// @updateURL    
-// @downloadURL  
+// @updateURL    https://github.com/PGCompass/OSCAR/raw/refs/heads/main/Oscar_V2.user.js
+// @downloadURL  https://github.com/PGCompass/OSCAR/raw/refs/heads/main/Oscar_V2.user.js
 // @grant        none
 // ==/UserScript==
 
