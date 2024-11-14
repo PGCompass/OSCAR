@@ -18,8 +18,11 @@
 //
 //////////////////////////////////////////////////
 
+// V3.0 - 14/11/2024 :
+//     Bugfix erreur sur nom des recettes
+
 // V2.3 - 29/03/2022 :
-// Bugfix fonction nom_recette : suppression .split("</span>          ")[2] suite à mise à jour Oscar.
+//     Bugfix fonction nom_recette : suppression .split("</span>          ")[2] suite à mise à jour Oscar.
 
 // V2.2b - 13/02/2022 :
 //
