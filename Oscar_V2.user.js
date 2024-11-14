@@ -142,9 +142,10 @@ var fonctions = 'function date_jour(id_jour) {';
     fonctions+= '   return document.getElementsByClassName("ribmenucol week-5 zflol zpadt0")[id_jour].getElementsByClassName("zflor")[0].getElementsByClassName("ztexb")[0].innerHTML';
     fonctions+= '}';
     // Nom de la recette
-    fonctions+= 'function nom_recette(id_food,id_jour,id_ligne) {';
-    fonctions+= '   return document.getElementsByClassName("food"+id_food+" dishtype  noguideline ")[id_jour].getElementsByClassName("article qz_Menus_Production_Recipe_Replacements_Show qz_Menus_Production_Recipe_ContextMenu")[id_ligne].innerHTML.split("(")[0]';
-    fonctions+= '}';
+    fonctions += 'function nom_recette(id_food, id_jour, id_ligne) {';
+    fonctions += '   var elements = document.querySelectorAll(".food" + id_food + ".dishtype.noguideline")[id_jour].querySelectorAll(".article");';
+    fonctions += '   return elements[id_ligne] ? elements[id_ligne].innerText.split("(")[0].trim() : null;';
+    fonctions += '}';
     // Prix TTC
     fonctions+= 'function prix_recette(id_food,id_jour,id_ligne) {';
     fonctions+= '   return document.getElementsByClassName("food"+id_food+" dishtype  noguideline ")[id_jour].getElementsByClassName("dishprice menu-calendar-price")[id_ligne].innerHTML.split(":")[1]';
