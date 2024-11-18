@@ -114,6 +114,7 @@ var categorie = 'var categorie = [';
     categorie+= '    ["Bar a fruits","61",7,8,3],';
     categorie+= '    ["Dessert bar","27",7,8,3],';
     categorie+= '    ["Topping dessert","214",7,8,3],';
+    categorie+= '    ["Vente Dessert SB","208",7,8,3],';
   //Boissons
     categorie+= '    ["Divers","9",8,5,],';
   //Laitages
