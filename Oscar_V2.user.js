@@ -79,6 +79,7 @@ var categorie = 'var categorie = [';
   //Salad'bar
     categorie+= '    ["Salade BAR","33",3,7,1],';
     categorie+= '    ["Topping","90",3,7,1],';
+    categorie+= '    ["Vente Entree SB","209",3,7,1],';
   //Plats
     categorie+= '    ["Bar a Soupe","91",4,,2],';
     categorie+= '    ["Bon par Nature","42",4,2,2],';
