@@ -105,6 +105,7 @@ var categorie = 'var categorie = [';
     categorie+= '    ["Legumes","56",5,3,2],';
     categorie+= '    ["Accompagnements","10",5,3,2],';
     categorie+= '    ["Legumes fixe","34",5,3,2],';
+    categorie+= '    ["Assiette de légumes","55",5,3,2],';
   //Desserts
     categorie+= '    ["Desserts","70",6,4,3],';
     categorie+= '    ["Desserts Dresses","28",6,4,3],';
