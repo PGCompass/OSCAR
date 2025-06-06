@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         OSCAR ALL
-// @version      2.3
+// @version      2.31
 // @description  Amélioration Oscar
 // @author       Pierre GARDIE - Compass Group France
 // @match        https://portail-oscar.compass-group.fr
