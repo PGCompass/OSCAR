@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         OSCAR ALL
-// @version      2.31
+// @version      2.32
 // @description  Amélioration Oscar
 // @author       Pierre GARDIE - Compass Group France
 // @match        https://portail-oscar.compass-group.fr
@@ -97,6 +97,7 @@ var categorie = 'var categorie = [';
     categorie+= '    ["Stand Express","29",4,2,2],';
     categorie+= '    ["Globe Cooker","174",4,2,2],';
     categorie+= '    ["Street Good","175",4,2,2],';
+    categorie+= '    ["Comptoir Asie","141",4,2,2],';
     categorie+= '    ["600 max","98",4,2,2],';
     categorie+= '    ["Les cocottes","180",4,2,2],';
     categorie+= '    ["Au naturel","172",4,2,2],';
