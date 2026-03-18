@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         OSCAR ALL
-// @version      3.10
+// @version      3.11
 // @description  Amélioration Oscar
 // @author       Pierre GARDIE - Compass Group France
 // @match        https://portail-oscar.compass-group.fr
@@ -18,7 +18,7 @@
 //
 //////////////////////////////////////////////////
 
-// V3.1 - 18/03/2026 :
+// V3.11 - 18/03/2026 :
 //     Ajout renouveau d'Eurest
 	
 // V3.0 - 14/11/2024 :
@@ -117,6 +117,8 @@ var categorie = 'var categorie = [';
     categorie+= '    ["Assiette de légumes","55",5,3,2],';
   //Desserts
     categorie+= '    ["Desserts","70",6,4,3],';
+    categorie+= '    ["Douce heure","287",6,4,3],';
+    categorie+= '    ["Dessert Fixe","47",6,4,3],';
     categorie+= '    ["Desserts Dresses","28",6,4,3],';
     categorie+= '    ["Patisserie Spectacle","68",6,4,3],';
     categorie+= '    ["Vente Ã  emporter","5",6,,3],';
