@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         OSCAR ALL
-// @version      2.32
+// @version      3.10
 // @description  Amélioration Oscar
 // @author       Pierre GARDIE - Compass Group France
 // @match        https://portail-oscar.compass-group.fr
@@ -18,6 +18,9 @@
 //
 //////////////////////////////////////////////////
 
+// V3.1 - 18/03/2026 :
+//     Ajout renouveau d'Eurest
+	
 // V3.0 - 14/11/2024 :
 //     Bugfix erreur sur nom des recettes
 
@@ -101,6 +104,11 @@ var categorie = 'var categorie = [';
     categorie+= '    ["600 max","98",4,2,2],';
     categorie+= '    ["Les cocottes","180",4,2,2],';
     categorie+= '    ["Au naturel","172",4,2,2],';
+    categorie+= '    ["A la Fraiche","283",4,2,2],';
+    categorie+= '    ["Canaille","281",4,2,2],';
+    categorie+= '    ["Hop! La Voie Rapide","285",4,2,2],';
+    categorie+= '    ["Globe Croqueur","284",4,2,2],';
+    categorie+= '    ["Grillé Minute","286",4,2,2],';
   //Légumes
     categorie+= '    ["Bar a legumes","64",5,3,2],';
     categorie+= '    ["Legumes","56",5,3,2],';
