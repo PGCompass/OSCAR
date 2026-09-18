@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         OSCAR ALL
-// @version      3.11
+// @version      3.12
 // @description  Amélioration Oscar
 // @author       Pierre GARDIE - Compass Group France
 // @match        https://portail-oscar.compass-group.fr
@@ -20,7 +20,7 @@
 
 // V3.11 - 18/03/2026 :
 //     Ajout renouveau d'Eurest
-	
+
 // V3.0 - 14/11/2024 :
 //     Bugfix erreur sur nom des recettes
 
